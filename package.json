@@ -1,0 +1,19 @@
+{
+  "name": "berlioz",
+  "version": "0.0.1",
+  "description": "Application created to improve the daily journeys of the visually impaired in the Paris metro",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BerliozApp/Berlioz.git"
+  },
+  "author": "BerliozApp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BerliozApp/Berlioz/issues"
+  },
+  "homepage": "https://github.com/BerliozApp/Berlioz#readme"
+}
