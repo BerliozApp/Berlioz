@@ -1,5 +1,21 @@
 {
   "expo": {
-    "sdkVersion": "23.0.0"
+    "name": "berlioz",
+    "description": "Projet d'app d'accesibilité",
+    "slug": "berlioz",
+    "privacy": "berlioz.app",
+    "sdkVersion": "24.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.jpg",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    }
   }
 }
