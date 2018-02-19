@@ -9,7 +9,6 @@ import HomeScreen from '../screens/HomeScreen';
 import LinksScreen from '../screens/LinksScreen';
 import SettingsScreen from '../screens/SettingsScreen';
 import CameraScreen from '../screens/CameraScreen';
-import LoginScreen from '../screens/LoginScreen';
 
 export default TabNavigator(
   {
@@ -24,9 +23,6 @@ export default TabNavigator(
     },
     Camera: {
       screen: CameraScreen,
-    },
-    Login: {
-      screen: LoginScreen,
     },
   },
   {
@@ -47,9 +43,6 @@ export default TabNavigator(
           case 'Camera' :
             iconName = 
               Platform.OS === 'ios' ? `ios-camera${focused ? '' : '-outline'}` : 'md-camera';
-          case 'Login':
-            iconName = 
-              Platform.OS === 'ios' ? `ios-camera`
         }
         return (
           <Ionicons
