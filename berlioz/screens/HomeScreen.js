@@ -21,12 +21,7 @@ export default class HomeScreen extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <WebView 
-          ref={'webview'}
-          automaticallyAdjustContentInsets={true}
-          source={loginscreen}
-          />
-        {/* <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
+        <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
           <View style={styles.welcomeContainer}>
             <Image
               source={
@@ -63,7 +58,7 @@ export default class HomeScreen extends React.Component {
           <View style={[styles.codeHighlightContainer, styles.navigationFilename]}>
             <MonoText style={styles.codeHighlightText}></MonoText>
           </View>
-        </View>*/}
+        </View>
       </View>
     );
   }

@@ -3,12 +3,11 @@
     "name": "berlioz",
     "description": "Projet d'app d'accesibilité",
     "slug": "berlioz",
-    "privacy": "berlioz.app",
     "sdkVersion": "24.0.0",
     "platforms": ["ios", "android"],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.jpg",
+    "icon": "./assets/images/icon.png",
     "splash": {
       "image": "./assets/images/splash.png",
       "resizeMode": "contain",
