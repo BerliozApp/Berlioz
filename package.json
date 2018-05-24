@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/BerliozApp/Berlioz/issues"
   },
-  "homepage": "https://github.com/BerliozApp/Berlioz#readme"
+  "homepage": "https://github.com/BerliozApp/Berlioz#readme",
+  "dependencies": {
+    "react-native-cli": "^2.0.1"
+  }
 }
