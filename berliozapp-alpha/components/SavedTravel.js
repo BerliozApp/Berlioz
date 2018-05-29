@@ -6,7 +6,7 @@ export default class SavedTravel extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.paragraph}>
-          SAved travel
+          Trajet sauvegarder
         </Text>
         <Image style={styles.logo} source={require("../assets/icon.jpg")}/>
       </View>

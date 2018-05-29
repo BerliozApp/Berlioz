@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
+import GestureRecognizer, {
+  swipeDirections,
+} from 'react-native-swipe-gestures';
 import { Text, View, StyleSheet, Image } from 'react-native';
+
 
 export default class Options extends Component {
   render() {
